@@ -66,7 +66,7 @@ pip install plyfile scipy
   Path to output pruned PLY file.
 
 - `--keep_percent` (required)  
-  Percentage of primitives to retain (0¨C1).  
+  Percentage of primitives to retain (0Â¨C1).  
   Example: `0.8` keeps 80% Gaussians.
 
 - `--input_dim` (optional, default=15)  
@@ -77,9 +77,9 @@ pip install plyfile scipy
 
 - `--knn_method` (optional)  
   KNN backend:
-  - `ivf` ¡ª fastest GPU approximate search
-  - `brute_force` ¡ª exact GPU search
-  - `ckdtree` ¡ª CPU exact search (recommended if CUDA/cuVS unavailable)
+  - `ivf` Â¡Âª fastest GPU approximate search
+  - `brute_force` Â¡Âª exact GPU search
+  - `ckdtree` Â¡Âª CPU exact search (recommended if CUDA/cuVS unavailable)
 
 - `--net_weights_path` (optional)  
   Path to pretrained network weights.  
@@ -117,7 +117,7 @@ python prune_percent.py \
 If you find this project useful, please cite:
 
 ```bibtex
-@inproceedings{yang2025rap,
+@inproceedings{yang2026rap,
   title={RAP: Fast Feedforward Rendering-Free Attribute-Guided Primitive Importance Score Prediction for Efficient 3D Gaussian Splatting Processing},
   author={Yang, Kaifa and Yang, Qi and Xu, Yiling and Li, Zhu},
   booktitle={CVPR},
